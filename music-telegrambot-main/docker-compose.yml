@@ -6,7 +6,7 @@ services:
     container_name: music-telegram-bot
     restart: unless-stopped
     environment:
-      - BOT_TOKEN=${BOT_TOKEN}
+      - BOT_TOKEN=8755780180:AAH7tdC_sdWMZAoyu56HEHFPlb_ToNQPisw
       - VK_ACCESS_TOKEN=${VK_ACCESS_TOKEN}
       - YANDEX_TOKEN=${YANDEX_TOKEN}
     volumes:
